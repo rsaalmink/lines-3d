@@ -12,4 +12,4 @@ pip install -r requirements.txt
 
 ## Running
 
-Run game.py, specify dimension size (i.e. 3 for a 3x3 cube).
+Run game.py, specify dimension size (i.e. 3 for a 3x3x3 game).

@@ -7,14 +7,14 @@ class Cube:
 		self.size = size
 		self.position = [x,y,z]
 		s = size / 2
-		self.vertices = (	(s+x, -s+y, -s+z),
-							(s+x, s+y, -s+z),
-							(-s+x, s+y, -s+z),
-							(-s+x, -s+y, -s+z),
-							(s+x, -s+y, s+z),
-							(s+x, s+y, s+z),
-							(-s+x, -s+y, s+z),
-							(-s+x, s+y, s+z)
+		self.vertices = (	(x+s, y-s, z-s),
+							(x+s, y+s, z-s),
+							(x-s, y+s, z-s),
+							(x-s, y-s, z-s),
+							(x+s, y-s, z+s),
+							(x+s, y+s, z+s),
+							(x-s, y-s, z+s),
+							(x-s, y+s, z+s)
 						)
 
 		self.edges = (	(0,1),
